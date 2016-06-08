@@ -2,3 +2,42 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li {
     margin: 0;
     padding: 0;
 }
+
+.container {
+    width: 960px;
+    margin: auto;
+}
+
+.carrera {
+    height: 250px;
+    position: relative;
+    border: 1px solid black;
+    display: flex;
+    margin-bottom: 100px;
+    border-radius: 10px;
+}
+
+.imagen {
+    position: absolute;
+    bottom: -6px;
+}
+
+.imagen.left {
+    left: 10px;
+}
+
+.imagen.right {
+    right: 10px;
+}
+
+.description {
+    margin-left: 500px;
+}
+
+.description.left {
+    left: 10px;
+}
+
+.description.right {
+    right: 10px;
+}
