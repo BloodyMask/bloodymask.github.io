@@ -9,13 +9,14 @@ h1,h2,h3,h4,h5,h6,p,figure,ul,li {
     margin-left: 320px;
 }
 
-.carrera {
+.carrera,.historia {
     min-height: 250px;
     position: relative;
     border: 1px solid black;
     display: flex;
     margin-bottom: 100px;
     border-radius: 10px;
+    border-color: white;
     color: white;
 }
 
